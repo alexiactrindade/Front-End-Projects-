@@ -1,0 +1,9 @@
+table {border: 2px solid rgb(252, 244, 0);}
+
+th, td, tr {border: 1px solid black;}
+
+th {background-color: #173726;} 
+
+.salario {background-color: rgb(119, 255, 146);}
+
+.dois {text-align: center;}

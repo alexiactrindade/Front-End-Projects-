@@ -1,0 +1,66 @@
+section.texto-imagem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+section.texto-imagem img {
+    width: 200px;
+    height: auto;
+    margin-left: 15px; 
+    order: 2;
+}
+
+section.personagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.personagens img {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 10px;
+}
+
+footer section {
+    flex: 1;
+    text-align: center;
+}
+
+section.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.goku {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline; 
+}
+
+nav ul li a {
+    text-decoration: none;
+}

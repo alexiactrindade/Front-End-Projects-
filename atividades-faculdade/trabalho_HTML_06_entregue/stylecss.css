@@ -1,0 +1,56 @@
+nav, footer {border-top: 8px solid lightblue;
+	     border-bottom: 8px solid lightblue; } 
+
+html {background-color: lightblue} 
+
+
+body {background-color:white;
+      width: 1140px;
+      margin: 0px auto;} 
+
+nav {
+  text-align: center; 
+  width: 1140px; 
+     } 
+
+ul li {
+       display: inline;
+       padding: 0px 50px 0px 50px;
+       margin: 20px;
+       font-size: 24px;
+       font-family: monospace;
+       text-transform: uppercase;
+       font-weight: bold;
+       }
+
+ul li a:hover {
+       background-color: purple;
+       color: white;
+       }
+
+article {padding: 15px 10px 15px 40px;
+width: 495px;
+float: left;
+text-align: center;}
+
+aside {padding: 15px 10px 15px 10px;
+width: 495px;
+border-left: 20px solid lightblue;
+text-align: center;
+float: right;}
+
+p {       font-size: 14px;
+       font-family: monospace;}
+
+footer {clear: both;
+text-align: center;
+height: 25px;
+padding: 10px; }
+
+small { font-family: monospace;} 
+
+h2 {font-family: monospace;} 
+
+
+
+

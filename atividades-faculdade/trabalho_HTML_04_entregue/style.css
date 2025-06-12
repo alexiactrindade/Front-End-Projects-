@@ -1,0 +1,12 @@
+table, th, tr, td {border: 1px solid black;} 
+
+html {background-color: aquamarine;}
+
+th {background-color: aqua;}
+
+td {background-color: antiquewhite;
+   font-size: 12px;}
+
+table {background-color: aliceblue;}
+
+h2 {text-align: center;} 

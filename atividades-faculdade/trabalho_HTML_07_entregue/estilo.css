@@ -1,0 +1,56 @@
+html {background-color: #e0e4ce}
+
+body {background-color: #2d3839; 
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {font-family: monospace;
+text-align: center; 
+color: #e0e4ce;}
+
+p {font-family: monospace;
+color: #e0e4ce;}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset {
+    background-color: #114d4d;
+    border-radius: 25px;
+    border: 1px solid #114d4d;
+    display: flex;
+    width: 500px;
+    margin: 0 auto; 
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e0e4ce;
+}
+
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #e0e4ce;
+    border: 1px solid #e0e4ce;
+    border-radius: 20px;
+    font-family: monospace;
+    padding: 10px;
+    width: 120px;
+    margin: 0 auto;
+    display: block; 
+  }

@@ -1,0 +1,12 @@
+table, th, tr, td {border: 1px solid black;} 
+
+html {background-color: #872618;}
+
+th {background-color: rgb(18, 191, 32);}
+
+td {background-color: rgb(230, 158, 202);
+   font-size: 12px;}
+
+table {background-color: rgb(255, 0, 179);}
+
+h2 {text-align: center;} 

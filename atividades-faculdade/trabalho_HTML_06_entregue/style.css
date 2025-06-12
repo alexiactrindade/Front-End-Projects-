@@ -1,0 +1,59 @@
+nav, footer {border-top: 8px solid lightblue; 
+	     border-bottom: 8px solid lightblue;}
+
+html {
+     background-color: lightblue
+     }
+
+body {background-color: white;
+      width: 1150px; 
+      margin: 0 auto;} 
+
+nav {
+  text-align: center; 
+  width: 1150px; 
+  clear: both
+     } 
+
+ul li {
+       display: inline;
+       padding: 0px 50px 0px 50px;
+       margin: 20px;
+       font-size: 24px;
+       font-family: monospace;
+       text-transform: uppercase;
+       font-weight: bold;
+       }
+
+ul li a:hover {
+       background-color: purple;
+       color: white;
+       }
+
+article {
+        width: 700px;
+        height: 0px;
+        padding: 1px 60px 15px 20px;
+        font-family: monospace;
+        font-size: 14px;
+        float: left;
+ } 
+
+aside {
+        width: 418px;
+	height: 0px
+        padding: 40px; 0px; 40px; 50px; 
+	border-left: 20px solid lightblue;
+        font-size: 10px;
+        font-family: monospace;
+        text-align: center;
+        float: right;
+
+}
+
+
+footer {
+  height: 25px;
+  text-align: center;
+  clear: both;
+} 

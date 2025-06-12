@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <article> 
+        <h2>Inscrição para Missão Espacial </h2>
+        <form>
+            <fieldset> 
+            <p> <label class="um"> Nome do(a) candidato(a) </label> </p>
+            <input> 
+            </fieldset> 
+            <fieldset> 
+            <p> <label class="um"> E-Mail </label> </p>
+            <input type="email">
+            </fieldset>
+            <fieldset> 
+                <p> <label class="um"> Telefone para contato </label> </p>
+                <input type="tel"> 
+                </fieldset>
+            <fieldset>  
+            <p> <label> Você está pronto(a) para deixar a Terra para sempre? </label> </p>
+                <p>
+                        <input type="radio" name="consentimento">
+                       Sim
+                </p>
+                <p>
+                        <input type="radio" name="consentimento">
+                        Não
+                </p>
+                <p>
+                    <input type="radio" name="consentimento">
+                    Talvez
+                 </p>
+            </fieldset>
+            <fieldset> 
+            <p> <label> Que horas você pretende sair do planeta? </label> </p>
+                 <p>  <label> <input type="time"> </label> </p>
+            </fieldset>
+            <fieldset> 
+                <p> <label> Se for selecionado(a) para a missão, qual será a cor do seu traje espacial? </label></p>
+                <p>  <label> <input type="color"> </label> </p>
+            </fieldset>
+            <fieldset> 
+                <p> <label> Responda com sinceridade: o que você espera encontrar em Marte? </label> </p>
+                <select name="expectativas" id="expectativas" multiple size="4">
+                    <option value="vida">Sinais de vida</option>
+                    <option value="nada">Nada muito impressionante</option>
+                    <option value="descoberta">Descobertas históricas</option>
+                    <option value="paz">Paz longe da Terra</option>
+                    <option value="aliens"> Aliens para fazer amigos </option>
+                    <option value="robo"> Robô da Nasa </option>
+                  </select>
+            </fieldset>
+            <fieldset> 
+                <p> <label> Na sua opinião, qual é a sua <b>MAIOR</b> qualidade como astronauta? </label></p>
+                <select name="qualidade" id="qualidade">
+                    <option value="coragem">Coragem</option>
+                    <option value="disciplina">Disciplina</option>
+                    <option value="auto"> Autoconfiança </option>
+                    <option value="persistencia">Persistência </option>
+                    <option value="inteligencia">Inteligência</option>
+                  </select>
+            </fieldset>
+            <fieldset>
+            <p> <label>Ao marcar as opções abaixo, você confirma que está pronto(a) para enfrentar a missão</label></p>
+            <p> <input type="checkbox"> Entendo que esta é uma missão sem retorno. </p>
+            <p> <input type="checkbox"> Aceito treinar por 180 dias em gravidade simulada. </p>
+            <p> <input type="checkbox"> Estou pronto(a) para um isolamento rigoroso.  </p>
+            <p> <input type="checkbox"> Estou ciente de que não poderei chegar a Marte vivo(a) </p> 
+            </fieldset>
+            <p> <button> INSCREVA-SE </button></p>
+        </form>
+    </article>
+</body>
+</html>
